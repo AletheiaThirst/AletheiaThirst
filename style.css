@@ -13,11 +13,12 @@ body{
 }
 
 body h1{
-  text-decoration: underline;
+  text-align: center;
 }
 
 body h2{
   margin-top: 50px;
+  text-align: center;
 }
 
 article{
@@ -44,7 +45,7 @@ a:active { text-decoration: none; }
   background: rgba(255,255,255,0.7);
   border-radius: 100px;
   padding: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 
@@ -114,4 +115,14 @@ a:active { text-decoration: none; }
   background-color: white;
   border-radius: 20px;
   border: 3px solid black;
+}
+
+#faq{
+  text-align: center;
+}
+
+.faq-question{
+  background-color: lightgrey;
+  padding: 10px;
+  margin-bottom: 20px;
 }

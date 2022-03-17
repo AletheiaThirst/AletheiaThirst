@@ -14,7 +14,7 @@
     </h1>
 		<article>
 			<p>I Rusland er medierne pålagt streng censur af regimet. Putins autoritære styre gør alt hvad de kan for at undgå at den Russiske befolkning bliver oplyste om hvad der faktisk foregår i Ukraine. De bliver i stedet fortalt en løgn om at Rusland har gang i en "militær specialoperation" med det formål at forhindre nazister i at begå folkedrab på russisktalende borgere i Ukraine.</p>
-			<p>Hjælp os med at bryde gennem censuren, og oplyse den Russiske befolkning om hvad der faktisk foregår. Send SMS'er til Russerne, og oplys dem. Prisen for at sende en SMS til Rusland kommer an på dit abonnement, men ligger typisk mellem 2 til 4 kr. per SMS.</p>
+			<p>Hjælp os med at bryde gennem censuren, og oplyse den Russiske befolkning om hvad der faktisk foregår. Send SMS'er til Russerne, og oplys dem.</p>
 		</article>
 
 		<div>
@@ -23,35 +23,40 @@
 		<div id="msgs">
     
 			<div id="msg1" onclick="selectMsg(1)">
-		    <a href="#ru-msg1" class="da-msg">Rusland invaderede demokratiske Ukraine. Uskyldige mennesker dør. Tro ikke Putins propaganda. Søg sandheden online. Protester og organiser!</a>	
+		    <a href="#ru-msg1" class="da-msg">Stop krigen i Ukraine. Tro ikke på propagandaen. Protester!</a>	
 			</div>
 
 			<div id="msg2" onclick="selectMsg(2)">
-				<a href="#ru-msg2" class="da-msg">Hej, vi kender ikke hinanden, men jeg besluttede at skrive til dig. Rusland er i gang med at ødelægge demokratiske Ukraine. I må stoppe Putin.</a>
+				<a href="#ru-msg2" class="da-msg">Hvad der sker i Ukraine er en forbrydelse og Rusland er aggressoren.</a>
 			</div>
 
       <div id="msg3" onclick="selectMsg(3)">
-				<a href="#ru-msg3" class="da-msg">Tro ikke på Putins løgne. Rusland er i gang med at ødelægge Ukraine. Accepter det ikke. Protester!</a>
+				<a href="#ru-msg3" class="da-msg">Stop Putin. Stop krigen. Tro ikke på propagandaen.</a>
 			</div>
       
       <div id="msg4" onclick="selectMsg(4)">
-				<a href="#ru-msg4" class="da-msg">Vi har brug for din hjælp til at stoppe Putin. Krigen i Ukraine er alene hans skyld. Uskyldige Russere og Ukrainere dør på grund af ham. Hvis ikke du tror på mig, så læs et medie der ikke er underlagt Putins censur. Protester!</a>
+				<a href="#ru-msg4" class="da-msg">Ansvaret for krigsforbrydelserne i Ukraine ligger hos Putin.</a>
 			</div>
       
       <div id="msg5" onclick="selectMsg(5)">
-				<a href="#ru-msg5" class="da-msg">Hej. Jeg er din ven fra Danmark. Du ikke må tro på de Russiske medier. Sandheden er at Rusland har invaderet demokratiske Ukraine med det formål at få det under Putins diktatur. Vi har brug for din hjælp til at stoppe Putin. Protester!</a>
+				<a href="#ru-msg5" class="da-msg">Tro ikke på Putins løgne - Rusland er i gang med at ødelægge Ukraine.</a>
+			</div>
+      
+      <div id="msg6" onclick="selectMsg(6)">
+				<a href="#ru-msg6" class="da-msg">Putin lyver. Skriv tilbage hvis du vil høre sandheden om krigen i Ukraine.</a>
 			</div>
       
 		</div>
     <div id="send-message">
-    
+
       <h2>2. Send beskeder</h2>
       <div id="ru-msgs">
-          <p id="ru-msg1" class="ru-trans-msg">Россия вторглась в демократическую Украину. Гибнут невинные люди. Не верьте путинской пропаганде. Ищите правду в Интернете. Протестуйте и организуйте!</p>
-          <p id="ru-msg2" class="ru-trans-msg">Привет, мы не знакомы, но я решил написать тебе. Россия находится в процессе разрушения демократической Украины. Вы должны остановить Путина.</p>
-          <p id="ru-msg3" class="ru-trans-msg">Не верьте путинской лжи. Россия находится в процессе уничтожения Украины. Не принимайте это. Протесты!</p>
-          <p id="ru-msg4" class="ru-trans-msg">Нам нужна ваша помощь, чтобы остановить Путина. Война на Украине исключительно по его вине. Из-за него гибнут невинные россияне и украинцы. Если не верите в меня, то читайте СМИ, не подпадающие под путинскую цензуру. Протесты!</p>
-          <p id="ru-msg5" class="ru-trans-msg">Привет. Я твой друг из Дании. Нельзя верить российским СМИ. Правда в том, что Россия вторглась в демократическую Украину с целью поставить ее под диктатуру Путина. Нам нужна ваша помощь, чтобы остановить Путина. Протесты!</p>
+          <p id="ru-msg1" class="ru-trans-msg">Остановить войну в Украине. Не верьте пропаганде. Протесты!</p>
+          <p id="ru-msg2" class="ru-trans-msg">То, что происходит на Украине, — преступление, а Россия — агрессор.</p>
+          <p id="ru-msg3" class="ru-trans-msg">Остановить Путина. Прекратить войну. Не верьте пропаганде.</p>
+          <p id="ru-msg4" class="ru-trans-msg">Ответственность Путина за военные преступления лежит на Путине.</p>
+          <p id="ru-msg5" class="ru-trans-msg">Не верьте путинской лжи - Россия разрушает Украину.</p>
+          <p id="ru-msg6" class="ru-trans-msg">Путин лжет. Пишите, если хотите услышать правду о войне в Украине.</p>
           <button onclick="copyMsg()">Kopier valgt besked</button>
         </div>
 
@@ -59,13 +64,29 @@
       <form onsubmit="getNumbers()" action="javascript:void(0);">
         <div class="send-mobile-message">
           <p>Hvor mange mobiltelefon numre vil du skrive til?</p>
-          <input type="number" id="count" value="10" min="1" max="20" required>
+          <input type="number" id="count" value="3" min="1" max="20" required>
           <input type="submit" value="Vis mig mobilnumrene">
 
         </div>
       </form>
 
       <div id="numbers">
+      </div>
+    </div>
+    
+    <div id="faq">
+      <h2>
+      Spørgsmål og svar
+      </h2>
+
+      <div class="faq-question">
+        <h4>Hvad koster det at sende en SMS til Rusland?</h4>
+        <p>Det kommer an på dit abonnement, men prisen ligger typisk mellem 2 til 4 kr. per SMS. Hvis du sender mere end 70 tegn, bliver din besked delt op i flere SMS'er.</p>
+      </div>
+
+      <div class="faq-question">
+        <h4>Hvor kommer numrene fra?</h4>
+        <p>De bliver hentet fra 1920.in.</p>
       </div>
     </div>
 	</body>
